@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Untitled Document</title>
+    <meta charset="UTF-8">
+    <meta id="viewport" name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1,user-scalable=0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/iconfont.css">
+   <script>
+    window.onload = window.onresize = function(){		 
+        var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+        var _html = document.getElementsByTagName('html')[0];
+        view_width>640?_html.style.fontSize = 640 / 16 + 'px':_html.style.fontSize = view_width / 16 + 'px';
+    }
+</script>
+</head>
+<body>
+    <nav>
+
+    </nav>
+    <header class="clearfix">
+        <i class="iconfont icon-iconset0193 fl menu"></i>
+        <ul class="btn clearfix fl" id="btn">
+            <li class="open fl">open</li>
+            <li class="clo">closed</li>
+        </ul>
+        <i class="iconfont icon-jiahao fr"></i>
+    </header>
+    <div id="content">
+        <nav class="content clearfix show">
+            <div class="content_top clearfix">
+                <h1 class="fl"><span><img src="img/head1.png" alt=""></span>Martin Groove</h1>
+                <h2 class="fr">175<i class="iconfont icon-stars"></i></h2>
+            </div>
+            <div class="cont_title">I can basejump from the shard! Can you?</div>
+            <div class="content_img">
+                <img src="img/img1.png" class="img" alt="">
+                <h1>01:11:03</h1>
+            </div>
+            <div class="content_btm">
+                <div class="fl">
+                    <i class="iconfont icon-yonghu"></i><p>7 people</p>
+                </div>
+                <div class="btn fl">Accept </div>
+                <div class="fr">
+                    <i class="iconfont icon-fenxiang"></i><p>Share</p>
+                </div>
+            </div>
+        </nav>
+        <nav class="content" style="margin-top: 10px;">
+            <div class="content_top clearfix">
+                <h1 class="fl"><span><img src="img/head2.png" alt=""></span>Martin Groove</h1>
+                <h2 class="fr">175<i class="iconfont icon-stars"></i></h2>
+            </div>
+            <div class="cont_title">I can basejump from the shard! Can you?</div>
+            <div class="content_img">
+                <img src="img/img2.png" class="img" alt="">
+                <h1>02:29:18</h1>
+            </div>
+            <div class="content_btm">
+                <div class="fl">
+                    <i class="iconfont icon-yonghu"></i><p>7 people</p>
+                </div>
+                <div class="btn fl">Accept </div>
+                <div class="fr">
+                    <i class="iconfont icon-fenxiang"></i><p>Share</p>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div id="content">
+        <nav class="content">
+        <div class="content_top clearfix">
+            <h1 class="fl"><span><img src="img/head1.png" alt=""></span>Martin Groove</h1>
+            <h2 class="fr">175<i class="iconfont icon-stars"></i></h2>
+        </div>
+        <div class="cont_title">I can basejump from the shard! Can you?</div>
+        <div class="content_img">
+            <img src="img/img1.png" class="img" alt="">
+            <h1>01:11:03</h1>
+        </div>
+        <div class="content_btm">
+            <div class="fl">
+                <i class="iconfont icon-yonghu"></i><p>7 people</p>
+            </div>
+            <div class="btn fl">Accept </div>
+            <div class="fr">
+                <i class="iconfont icon-fenxiang"></i><p>Share</p>
+            </div>
+        </div>
+    </nav>
+    <nav class="content" style="margin-top: 10px;">
+        <div class="content_top clearfix">
+            <h1 class="fl"><span><img src="img/head2.png" alt=""></span>Martin Groove</h1>
+            <h2 class="fr">175<i class="iconfont icon-stars"></i></h2>
+        </div>
+        <div class="cont_title">I can basejump from the shard! Can you?</div>
+        <div class="content_img">
+            <img src="img/img2.png" class="img" alt="">
+            <h1>02:29:18</h1>
+        </div>
+        <div class="content_btm">
+            <div class="fl">
+                <i class="iconfont icon-yonghu"></i><p>7 people</p>
+            </div>
+            <div class="btn fl">Accept </div>
+            <div class="fr">
+                <i class="iconfont icon-fenxiang"></i><p>Share</p>
+            </div>
+        </div>
+    </nav>
+    </div>
+    <script>
+        var oBtn=document.getElementById('btn');
+        var oList=oBtn.getElementsByTagName('li');
+        var oTab=document.getElementById('content');
+        var oTabs=oTab.getElementsByTagName('nav');
+        function  tab(nIndex) {
+            for(var i=0; i<oList.length; i++){
+                oList[i].className='';
+                oTabs.className='';
+            }
+            oList[nIndex].className='open';
+            oTabs[nIndex].className='show';
+        }
+        for(var i=0; i<oList.length; i++){
+            oList[i].index=i;
+            oList.onclick=function () {
+                tab(this.index);
+            }
+        }
+    </script>
+</body>
+</html>
