@@ -189,9 +189,9 @@ a{
 }
 .product ul li{
     float: left;
-    width: 24% !important;
+    width: 24.5% !important;
     background-color: #EFEFEF;
-    margin-right: 4px;
+    margin-right: 2px;
     border-radius: 20px;
     line-height: 40px;
     color: #333;
@@ -206,6 +206,9 @@ a{
 }
 .product ol.pc_show li{
     width: 22% !important;
+}
+.product ol.mob_show li{
+    width: 49% !important;
 }
 .product ol li:nth-last-child(1){
     margin-right: 0;
