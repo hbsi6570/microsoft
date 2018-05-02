@@ -1,0 +1,252 @@
+@charset "utf-8";
+body, ul, li, ol, h1, h2, h3, h4, h5, h6, p, input, select, textarea, dl, dd {
+    margin: 0;
+    padding: 0;
+    font-family: '微软雅黑';
+    font-size: 12px;
+}
+html,body{
+    background-color: #1B1B1B;
+}
+h2, h3, h4, h5, h6{
+    font-weight: normal;
+}
+ol, ul {
+    list-style: none;
+}
+img {
+    vertical-align: middle;
+    border: none;
+}
+a{
+    text-decoration: none;
+}
+.clearfix:after, .clearfix:before {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+@media (min-width: 768px) {
+    .wrap{
+        width: 800px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        padding-left: 0 !important;
+    }
+    .pc_hide{
+        display: none !important;
+    }
+    .pc_show{
+        display: block !important;
+    }
+    .nav{
+        margin-bottom: 20px;
+    }
+    .navbar-brand > img{
+        width: 100% !important;
+        margin-top: 0 !important;
+    }
+    .carousel{
+        margin-top: 81px;
+    }
+    .about img{
+        width: 325px !important;
+        height: auto;
+    }
+    .style ul li{
+        margin-bottom: 94px !important;
+    }
+}
+.wrap{
+    padding-left: 15px;
+    margin-right: 15px;
+}
+.mob_hide{
+    display: none;
+}
+.mob_show{
+    display: block;
+}
+.nav{
+    /*height: 70px;*/
+}
+.navbar-inverse{
+    background-color: #141414;
+}
+.navbar-nav{
+    margin-top: 10px;
+}
+.navbar-brand{
+    height: 0 !important;
+}
+.navbar-brand > img{
+    width: 78%;
+    margin-top: -14%;
+}
+.navbar-nav li.on a {
+    color: #F13A3A;
+}
+.glyphicon-chevron-left:before {
+    content: "" !important;
+}
+.glyphicon-chevron-right:before {
+    content: "" !important;
+}
+.carousel{
+    margin: 70px 0;
+}
+.carousel span{
+    font-family: '宋体';
+}
+.about{
+    color: #fff;
+}
+h2{
+    text-align: center;
+    margin-bottom: 64px;
+    font-size: 18px;
+    color: #fff;
+}
+h2 span{
+    display: block;
+    font-size: 12px;
+    margin-top: 15px;
+}
+.about .about_con{
+    margin-bottom: 40px;
+}
+.about p{
+    width: 350px;
+    margin-bottom: 26px;
+    line-height: 26px;
+}
+.about img{
+    width: 100%;
+}
+.out{
+    position: relative;
+    width: 162px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 63px;
+    border: 1px solid #F13A3A;
+    cursor: pointer;
+}
+.IN{
+    width: 160px;
+    height: 44px;
+    background-color: #F13A3A;
+    border: 2px solid #1B1B1B;
+}
+.out img{
+    position: absolute;
+    left: 50%;
+    top: 50px;
+    width: 83px !important;
+    height: auto;
+    margin-top: -33px;
+    margin-left: -40px;
+}
+.phy{
+    width: 100%;
+    background-color: #F13A3A;
+    padding: 70px 0;
+}
+.phy ul li.col-xs-2{
+    width: 20% !important;
+}
+.phy img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.phy ul li p{
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+}
+.phy ul li p span{
+    display: block;
+    font-size: 12px;
+}
+.phy .mob_show li{
+    height: 400px;
+}
+.phy .mob_show li img{
+    width: 100%;
+    height: 285px;
+    margin-bottom: 20px;
+}
+.style{
+    padding-top: 65px;
+}
+.style ul li{
+    margin-bottom: 35px;
+}
+.style ul.pc_show li img{
+    width: 100%;
+    height: auto;
+}
+.style ul.mob_show li img{
+    width: 100%;
+    height: 205px;
+}
+.style ul.mob_show li{
+    padding: 0 5px !important;
+}
+.style ul li div{
+    background-color: #2D2D2D;
+    padding: 15px 12px 22px 12px;
+    color: #fff;
+}
+.style ul li div h6{
+    font-size: 14px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+}
+.style ul li div h6 span{
+    display: inline-block;
+    width: 21px;
+    height: 14px;
+    background: url("../img/hua.png") no-repeat right center;
+    padding-left: 20%;
+}
+.news{
+    background-color: #2D2D2D;
+    padding: 70px 0;
+    color: #fff;
+}
+.news img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 36px;
+}
+.news p{
+    margin-bottom: 26px;
+    line-height: 28px;
+}
+.news span{
+    display: inline-block;
+    margin-bottom: 35px;
+}
+.footer{
+    margin-top: 100px;
+    background-color: #151515;
+    padding: 45px 0;
+} 
+.footer p{
+    list-style: 28px;
+    color: #666;
+    text-align: center;
+}
+.footer p span{
+    padding: 0 2px;
+}
