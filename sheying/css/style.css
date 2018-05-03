@@ -64,6 +64,9 @@ a{
     .style ul li{
         margin-bottom: 94px !important;
     }
+    h2{
+        margin-bottom: 64px !important;
+    }
 }
 .wrap{
     padding-left: 15px;
@@ -111,7 +114,7 @@ a{
 }
 h2{
     text-align: center;
-    margin-bottom: 64px;
+    margin-bottom: 30px;
     font-size: 18px;
     color: #fff;
 }
@@ -124,7 +127,7 @@ h2 span{
     margin-bottom: 40px;
 }
 .about p{
-    width: 350px;
+    width: 330px;
     margin-bottom: 26px;
     line-height: 26px;
 }
@@ -234,8 +237,20 @@ h2 span{
     line-height: 28px;
 }
 .news span{
-    display: inline-block;
+    display: block;
     margin-bottom: 35px;
+}
+.cust{
+    padding: 67px 0 85px 0;
+    color: #fff;
+}
+.cust p{
+    margin-top: 14px;
+    line-height: 22px;
+}
+.cust span{
+    display: block;
+    margin-top: 14px;
 }
 .footer{
     margin-top: 100px;
