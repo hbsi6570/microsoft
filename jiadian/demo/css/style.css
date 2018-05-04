@@ -1,0 +1,198 @@
+@charset "utf-8";
+body, ul, li, ol, h1, h2, h3, h4, h5, h6, p, input, select, textarea, dl, dd {
+    margin: 0;
+    padding: 0;
+    font-family: '微软雅黑';
+    font-size: 12px;
+}
+body{
+    /*text-align: center;*/
+}
+h2, h3, h4, h5, h6{
+    font-weight: normal;
+}
+ol, ul {
+    list-style: none;
+}
+img {
+    vertical-align: middle;
+    border: none;
+}
+a{
+    text-decoration: none;
+}
+.clearfix:after, .clearfix:before {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+@media (min-width: 768px) {
+    .wrap{
+        width: 800px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        padding-left: 0 !important;
+    }
+    .pc_hide{
+        display: none !important;
+    }
+    .pc_show{
+        display: block !important;
+    }
+    .logo_pc{
+        padding-right: 200px;
+    }
+    .product ul.pc_show li{
+        width: 158px !important;
+        float: none !important;
+        margin-bottom: 14px;
+    }
+    .main p{
+        width: 450px;
+    }
+    .main .main_lf{
+        width: 40% !important;
+    }
+}
+.wrap{
+    padding-left: 15px;
+    margin-right: 15px;
+}
+.mob_hide{
+    display: none;
+}
+.mob_show{
+    display: block;
+}
+.nav{
+    background-color: #fff;
+    margin-bottom: 30px;
+}
+.navbar-inverse{
+    border-color: transparent;
+}
+.navbar-nav .active{
+    background-color: #ffb500 !important;
+}
+.navbar-nav li:hover{
+    background-color: #ffb500 !important;
+}
+.navbar-nav a {
+    background-color: transparent !important;
+}
+.navbar-nav li a:active {
+    background-color: #ffb500 !important;
+}
+.navbar-inverse .navbar-toggle{
+    border-color: #f50;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+    border-color: #ffb500 !important;
+    margin-top: 3px;
+}
+.navbar button{
+    background-color: #ffb500 !important;
+}
+.carousel{
+    margin-top: 100px;
+    margin-bottom: 25px;
+}
+.carousel span{
+    font-family: '宋体';
+}
+.glyphicon-chevron-left:before {
+    content: "" !important;
+}
+.glyphicon-chevron-right:before {
+    content: "" !important;
+}
+
+.product h2{
+    width: 96px;
+    margin: 0 auto;
+    font-size: 22px;
+    color: #333;
+    padding-bottom: 10px;
+    margin-bottom: 82px;
+    border-bottom: 2px solid #FFC001;
+}
+.product ul{
+    margin-bottom: 32px;
+}
+.product ul li{
+    float: left;
+    width: 24% !important;
+    background-color: #EFEFEF;
+    margin-right: 2px;
+    border-radius: 20px;
+    line-height: 40px;
+    color: #333;
+    text-align: center;
+}
+.product ul li:nth-last-child(1){
+    margin-right: 0;
+}
+.product ol li{
+    float: left;
+    /*width: 172px;
+    height: 172px;*/
+    border: 1px solid #DDD;
+    margin-right: 15px;
+}
+
+.product ol li:nth-last-child(1){
+    margin-right: 0;
+}
+.product ol.pc_show li img{
+    width: 150px;
+    height: 150px;
+}
+.product ol.pc_hide li img{
+    width: 100%;
+    height: 340px;
+}
+.main .main_lf{
+    width: 100%;
+}
+.main h4{
+    font-size: 14px;
+    margin-bottom: 44px;
+    color: #333;
+    text-align: center;
+}
+.main img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 34px;
+}
+.main span{
+    display: block;
+    margin-bottom: 40px;
+    color: #333;
+}
+.main p{
+    line-height: 30px;
+    color: #666;
+}
+
+.footer{
+    margin-top: 100px;
+    background-color: #151515;
+    padding: 45px 0;
+} 
+.footer p{
+    list-style: 28px;
+    color: #666;
+    text-align: center;
+}
+.footer p span{
+    padding: 0 2px;
+}

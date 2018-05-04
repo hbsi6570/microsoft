@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>家电</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-1.9.1.js"></script>
+    <script src="js/bootstrap.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top nav">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><img src="img/logo.jpg" alt="" class="fl logo_pc"
+                                                  style="margin-top: -5px;"></a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">首页</a></li>
+                <li><a href="#">企业文化</a></li>
+                <li><a href="#">案例展示</a></li>
+                <li><a href="#">新闻资讯</a></li>
+                <li><a href="#">在线留言</a></li>
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div>
+</nav>
+
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner banner" role="listbox">
+        <div class="item active">
+            <img src="img/banner.jpg" alt="">
+        </div>
+        <div class="item">
+            <img src="img/banner.jpg" alt="">
+        </div>
+        <div class="item">
+            <img src="img/banner.jpg" alt="">
+        </div>
+    </div>
+
+    <!-- Controls -->
+    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true">&lt;</span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true">&gt;</span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.carousel').carousel({
+            interval: 3000
+        })
+    })
+</script>
+<div class="main">
+    <div class="wrap clearfix">
+        <div class="main_lf fl">
+            <span>当前位置</span>
+            <div class="product">
+                <ul class="clearfix mob_hide pc_show">
+                    <li class="col-xs-2">电暖气</li>
+                    <li class="col-xs-2">小家电</li>
+                    <li class="col-xs-2">制冷电器</li>
+                    <li class="col-xs-2">厨房电器</li>
+                </ul>
+                <ul class="clearfix mob_show pc_hide">
+                    <li class="col-xs-2">电暖气</li>
+                    <li class="col-xs-2">小家电</li>
+                    <li class="col-xs-2">制冷电器</li>
+                    <li class="col-xs-2">厨房电器</li>
+                </ul>
+            </div>
+        </div>
+        <div class="main_rg fr">
+            <h4>国内醋酸市场行情概述</h4>
+            <img src="img/m7.jpg" alt="">
+            <p>
+                6月3日华东地区商谈在S9S0-60S0元/吨附近，华南地区商谈在6100-6200元/吨附近，华区商谈在S900-6000元/吨附近；目前下游用户维持低价采购，部分商家消极摄作，交投氛围依旧偏冷淡，市场缺乏利好支撑，短线行情弱势维持</p>
+            <p>
+                6月3日华东地区商谈在S9S0-60S0元/吨附近，华南地区商谈在6100-6200元/吨附近，华区商谈在S900-6000元/吨附近；目前下游用户维持低价采购，部分商家消极摄作，交投氛围依旧偏冷淡，市场缺乏利好支撑，短线行情弱势维持</p>
+            <p>
+                6月3日华东地区商谈在S9S0-60S0元/吨附近，华南地区商谈在6100-6200元/吨附近，华区商谈在S900-6000元/吨附近；目前下游用户维持低价采购，部分商家消极摄作，交投氛围依旧偏冷淡，市场缺乏利好支撑，短线行情弱势维持</p>
+        </div>
+    </div>
+</div>
+<div class="footer img-responsive">
+    <div class="wrap">
+        <p>Copyright 2018 &copy; All Rights Reserved 河北软件 版权所有</p>
+        <p>鸿蒙网络科技有限公司技术支持</p>
+        <p>入云端<span>|</span>商务端<span>|</span>祥云端<span>|</span>网游端</p>
+        <p>中国云CHCI系统<span>|</span>ICP备案号：京ICP备09066050号-3</p>
+    </div>
+</div>
+</body>
+</html>
