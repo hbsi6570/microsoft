@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="font/iconfont.css">
+	<meta id="viewport" name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1,user-scalable=0">
+	<script>
+    window.onload = window.onresize = function(){		 
+        var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+		//找到标签名为html的第一个
+        var _html = document.getElementsByTagName('html')[0];
+		//如果屏幕宽度大于640 
+		//就用 640/16=40
+		//小于640的时候 不确定 也是尺寸/40
+        view_width>640?_html.style.fontSize = 640 / 16 + 'px':_html.style.fontSize = view_width / 16 + 'px';
+		//最大网页尺寸640 
+		//最大字体（根字体大小） 40
+    }
+</script>
+	
+</head>
+<body>
+
+		<header>
+			<img src="images/bananer.png" alt="" class="beijing">
+			<div class="hd_top clearfix">
+				<div class="nav clearfix">
+				<span class="iconfont fl">&#xe623;<i>分类</i></span>
+				<span class="iconfont fr">&#xe61a;</span>
+				<input type="text" class="bd1" value="输入搜索关键词">
+				<img src="images/sousuo.png" alt="" class="tu1">
+			    </div>
+			</div>
+			<div class="hd_btm clearfix">
+				<span class="span1"></span>
+				<span class="span2"></span>
+				<span class="span3"></span>
+				<span class="span4"></span>
+				<span class="span5"></span>
+				<span class="span6"></span>
+			</div>
+		</header>
+
+
+		<div class="neirong clearfix">
+          <div class="kuai1 clearfix">
+          	<ul>
+          		<li>
+                   <img src="images/tu1.png" alt="" class="tu2">
+                   <p>中西药</p>
+          		</li>
+          		<li>
+                    <img src="images/tu2.png" alt="" class="tu2">
+                   <p>儿科用药</p>
+          		</li>
+          		<li>
+                   <img src="images/tu3.png" alt="" class="tu2">
+                   <p>皮肤用药</p>
+          		</li>
+          		<li style="margin-right:0rem;">
+                    <img src="images/tu4.png" alt="" class="tu2">
+                    <p>医疗器械</p>
+          		</li>
+          		<li>
+                    <img src="images/tu8.png" alt="" class="tu2">
+                    <p>养生保健</p>
+          		</li>
+          		<li>
+          			<img src="images/tu7.png" alt="" class="tu2">
+                   <p>隐形眼镜</p>
+
+          		</li>
+          		<li>
+          			<img src="images/tu6.png" alt="" class="tu2">
+                   <p>美容护肤</p>
+
+          		</li>
+          		<li style="margin-right:0rem;">
+          			<img src="images/tu5.png" alt="" class="tu2">
+                   <p>成人用品</p>
+
+          		</li>
+          	</ul>
+          </div>
+
+            <div class="kuai2 clearfix">
+               <h3>全网最低价</h3>
+               <div class="kuai2_bottom">
+                 <div class="bottom_left">
+                   <h2>【力魂】灵芝益寿胶囊</h2>
+                   <h4>￥8.99</h4>
+                   <img src="images/lingzhi.png" alt="" class="tu3">
+                 </div>
+                 <div class="bottom_right">
+                     <div class="bottom_right_top">
+                     	<div class="right_top_left">
+                 	    <h2>【永安康健】<br>&nbsp;&nbsp;玛咖</h2>
+                        <h4>￥119.00</h4>
+                        </div> 
+                        <img src="images/maka.png" alt="" class="tu4">
+                     </div>
+                        <div class="bottom_right_bottom">
+                        	<div class="right_top_right">
+                 	           <h2>【金奥力】<br>&nbsp;蜂胶胶囊</h2>
+                               <h4>￥138.00</h4>
+                            </div>
+                               <img src="images/jiaonang.png" alt="" class="tu5">
+                        </div>
+                 </div>
+
+               </div>
+            </div>
+
+
+            <div class="kuai3 clearfix">
+               <img src="images/tu9.png" alt="" class="tu6">
+            </div>
+
+            
+            <div class="kuai4 clearfix">
+               <h3>答谢恩师</h3>
+               <div class="kuai4_bottom">
+                 <div class="bottom_left">
+                 	<div class="bottom_left_top">
+                     	<div class="left_top_left">
+                 	       <h2>【恒诚】<br>&nbsp;跌打榜药酒</h2>
+                           <h4>￥13.80</h4>
+                        </div> 
+                           <img src="images/yaojiu.png" alt="" class="tu7">
+                    </div>
+  
+                    <div class="bottom_left_bottom">
+                     	<div class="left_bottom_left">
+                 	       <h2>【万通】颈痛灵药酒</h2>
+                           <h4>￥25.00</h4>
+                        </div> 
+                           <img src="images/yaojiu2.png" alt="" class="tu8">
+                    </div>
+                  </div>
+                 
+                 <div class="bottom_right clearfix">
+                 	           <h2>鸿茅药酒（500ml）</h2>
+                               <h4>￥196.00</h4>
+                               <img src="images/yaojiu3.png" alt="" class="tu9">
+                        
+                 </div>
+
+               </div>
+            </div>
+
+
+            <div class="kuai5 clearfix">
+               <img src="images/tu10.png" alt="" class="tu10">
+            </div>
+             
+
+		<div class="kuai6 clearfix">
+               <h3>美美哒</h3>
+               <div class="kuai6_bottom">
+                 <div class="bottom_left">
+                   <h2>【姿美堂】胶原蛋白粉</h2>
+                   <h4>￥89.00</h4>
+                   <img src="images/danbaifen.png" alt="" class="tu11">
+                 </div>
+                 <div class="bottom_right">
+                     <div class="bottom_right_top">
+                     	<div class="right_top_left">
+                 	    <h2>新加坡DRC亮白蚕丝<br>精华液</h2>
+                        <h4>￥15.80</h4>
+                        </div> 
+                        <img src="images/mianmo.png" alt="" class="tu12">
+                     </div>
+                        <div class="bottom_right_bottom">
+                        	<div class="right_top_right">
+                 	           <h2>【爱美得】<br>&nbsp;大眼睛睫毛膏</h2>
+                               <h4>￥36.00</h4>
+                            </div>
+                               <img src="images/jiemaogao.png" alt="" class="tu13">
+                        </div>
+                 </div>
+
+               </div>
+            </div>
+				
+			
+		</div>
+
+		
+
+
+		<div class="foot">
+			<div class="denglu">
+				
+				  <a href="#" class="a1">登录</a>
+				  <span class="span1">|</span>
+				  <a href="#" class="a2">注册</a>
+			     <a href="#" class="a3">回首页</a>
+			
+            </div>
+
+            <div class="dibu">
+
+            </div>
+		
+		</div>
+
+</body>
+</html>
